@@ -45,6 +45,54 @@
 
 // and operator in javascript------
 
+// typeconversion--------
+
+// let score = false;
+// let intNumber = Number(score);
+// console.log(typeof score);
+
+// console.log(intNumber);
+
+// let islogin=0;
+// let booleanIslogin=Boolean(islogin);
+// console.log(typeof booleanIslogin)
+// console.log(booleanIslogin)
+
+
+// console.log(+true)
+// console.log(typeof +true)
+// console.log(+" ")
+
+// let gameCounter = 100;
+// gameCounter++;
+// console.log(gameCounter);
+
+//prefix and postfix========= 
+
+// let x=5;
+// let y = x++;
+// console.log(`x: ${x} , y: ${y}`)
+
+// let a=10;
+// let b=++a;
+// console.log(`a: ${a} , b:${b}`)
+
+// ===========memory explanation
+
+// let user1 ={
+//           email: "sunil@gmail.com",
+//           pass:123333,
+// }
+
+// let user2=user1;
+// user2.email = "sk@gmail.com";
+// console.log(user1)
+
+
+
+
+
+
 
 
 
