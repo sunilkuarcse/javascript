@@ -34,7 +34,7 @@ console.log(object);
 
 // array in javascript--------
 
-let fruits=["apple" , "banana" , "orange" , "grapes"]
+let fruits=[ "apple" , "banana" , "orange" , "grapes"]
 console.log(fruits[0]);
 console.log(typeof num1);
 

@@ -4,8 +4,8 @@
 // let bio = (`sunil name is : ${name} , and age is : ${age}`)
 // console.log(bio)
 
-// let name = new String("sunildabriya");
-// console.log(typeof name);
+let name = new String("sunildabriya");
+console.log(name);
 
 // string methods are commonly used in javascripts-----------
 

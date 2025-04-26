@@ -90,6 +90,9 @@
 // console.log(Array.of(score1 , score2, score3));
 
 // console.log(Array.from({name :"sunil"}));//is accepteed output empty array--------is very intersted-------
+// console.log("hello sunil");
+
+
 
 
 
