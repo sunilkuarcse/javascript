@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Dom-3</title>
+</head>
+<body>
+      <ul class="language">
+          <li>javascript</li>
+      </ul>    
+</body>
+<script>
+    //    function addLanguage(languageName){
+    //     const li = document.createElement('li');
+    //     console.log(li);
+    //     li.appendChild(document.createTextNode(languageName))
+    //     document.querySelector('.language').appendChild(li)
+    //    }
+    //    addLanguage("python");
+    //    addLanguage("java");
+
+    //    function addLanguages(ln){
+    //     let li = document.createElement('li');
+    //     console.log(li);
+    //     li.appendChild(document.createTextNode(ln))
+    //     document.querySelector('.language').appendChild(li)
+    //    }
+    //    addLanguages("python");
+    //    addLanguages("java");
+    //    addLanguages("ruby");
+    //    addLanguages("c++");
+
+    // function addLanguage(ln){
+    //     let li  = document.createElement('li')
+    //     console.log(li);
+    //     li.innerHTML = `${ln}`
+    //     console.log(li.innerHTML);
+    //     document.querySelector('.language').appendChild(li)
+    // }
+    // addLanguage("python");
+
+    function addLanguage(ln){
+        let li  = document.createElement('li')
+        console.log(li);
+        li.appendChild(document.createTextNode(ln));
+        document.querySelector('.language').appendChild(li);
+
+
+    }
+    addLanguage("python");
+    addLanguage("java");
+    addLanguage("golang");
+    addLanguage("c++");
+
+    // edit------------------------------------
+
+    // const secondLanguage  = document.querySelector("li:nth-child(2)")
+    // const newLi = document.createElement('li')
+    // console.log(newLi);
+    // newLi.appendChild(document.createTextNode("mojo"))
+    // secondLanguage.replaceWith(newLi);
+
+    // const firstlang =  document.querySelector('li:first-child');
+
+    // let newli =document.createElement('li');
+    // newli.textContent = "ruby";
+    // firstlang.replaceWith(newli);
+
+    // remove----------------------------------
+
+    // let firstchild= document.querySelector("li:first-child");
+    // firstchild.remove();
+
+    // let secondLanguage = document.querySelector("li:nth-child(2)")
+
+    // secondLanguage.remove();
+
+
+
+       
+
+
+
+</script>
+</html>
